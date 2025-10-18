@@ -15,6 +15,7 @@ or my repositories [career-theas-design](https://github.com/TerezaJarosova/caree
 
 ## Features
 - Modular SCSS structure (variables, nesting, mixins)
+- Light and dark mode switch via SCSS variable (`$theme: light;` / `$theme: dark;`)
 - Styling for headers, cards, and sections
 - Visual emphasis on layout and typography
 - Focus on maintainable CSS practices
