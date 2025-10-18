@@ -1,0 +1,27 @@
+@mixin container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@mixin block-style {
+    background-color: $block-background;
+    color: $block-color;
+    text-align: center;
+}
+
+@mixin card-row {
+    width: 6 * col-width();
+}
+
+@mixin border-radius($radius: 15px) {
+    border-radius: $radius;
+}
+
+@mixin button {
+    text-decoration: none;
+    background-color: $block-background;
+    color: #fff;
+    padding: 10px 15px;
+    border: $button-border;
+    @include border-radius(20px);
+}

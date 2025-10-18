@@ -1,0 +1,60 @@
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/functions";
+
+body {
+    background-color: $body-background;
+    @include container;
+}
+
+header {
+    height: $header-height;
+    @include block-style;
+
+    h1 {
+        font-size: 50px;
+        margin-top: 0;
+        line-height: $header-height;
+    }
+}
+
+.about {
+
+    h2, p {
+        color: $text-color;
+        text-align: center;
+    }
+}
+
+.card {
+    @include card-row;
+    display: inline-block;
+
+    img {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        @include border-radius(20px);
+    }
+
+    a {
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+        width: 100px;
+        @include button;
+
+        &:hover {
+            background-color: lighten($block-background, 10%);
+        }
+    }
+}
+
+footer {
+    height: $footer-height;
+    @include block-style;
+
+    p {
+        line-height: $footer-height;
+    }
+}

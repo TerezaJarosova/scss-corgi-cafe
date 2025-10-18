@@ -1,0 +1,61 @@
+/* Theme: light, dark */
+/* Colors */
+/* Sizes */
+body {
+  background-color: #fff2da;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  background-color: #b47b11;
+  color: #fff;
+  text-align: center;
+}
+header h1 {
+  font-size: 50px;
+  margin-top: 0;
+  line-height: 100px;
+}
+
+.about h2, .about p {
+  color: #462f05;
+  text-align: center;
+}
+
+.card {
+  width: 49.45%;
+  display: inline-block;
+}
+.card img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.card a {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  width: 100px;
+  text-decoration: none;
+  background-color: #b47b11;
+  color: #fff;
+  padding: 10px 15px;
+  border: 2px solid #6e4a07;
+  border-radius: 20px;
+}
+.card a:hover {
+  background-color: rgb(226.5989847716, 154.8426395939, 21.4010152284);
+}
+
+footer {
+  height: 50px;
+  background-color: #b47b11;
+  color: #fff;
+  text-align: center;
+}
+footer p {
+  line-height: 50px;
+}/*# sourceMappingURL=style.css.map */
